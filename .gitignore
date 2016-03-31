@@ -1,0 +1,19 @@
+target/
+ucmp-common/target/
+ucmp-core/target/
+ucmp-client/target/
+ucmp-service/target/
+*.bak
+.project
+.classpath
+**/.settings/
+**/WebContent/
+**/logback-test.xml
+
+#idea �ļ������б�
+.idea/
+*.iml
+*.zip
+*.log
+*.bat
+ucmp-core/test-output/
