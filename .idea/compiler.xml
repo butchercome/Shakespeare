@@ -17,16 +17,40 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Annotation profile for Shakespeare" enabled="true">
+      <profile default="false" name="Annotation profile for Shake-common" enabled="true">
         <sourceOutputDir name="target\generated-sources\annotations" />
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="Shakespeare" />
+      </profile>
+      <profile default="false" name="Annotation profile for Shake-load" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Shake-load" />
+      </profile>
+      <profile default="false" name="Annotation profile for Shake-service" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Shake-service" />
+      </profile>
+      <profile default="false" name="Annotation profile for Shake-utils" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Shake-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Shakespeare" target="1.6" />
+      <module name="Shake-common" target="1.6" />
+      <module name="Shake-load" target="1.6" />
+      <module name="Shake-service" target="1.6" />
+      <module name="Shake-utils" target="1.6" />
+      <module name="Shakespeare" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

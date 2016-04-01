@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Shake-load/Shake-load.iml" filepath="$PROJECT_DIR$/Shake-load/Shake-load.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shake-service/Shake-service.iml" filepath="$PROJECT_DIR$/Shake-service/Shake-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shake-utils/Shake-utils.iml" filepath="$PROJECT_DIR$/Shake-utils/Shake-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shakespeare.iml" filepath="$PROJECT_DIR$/Shakespeare.iml" />
     </modules>
   </component>
