@@ -27,6 +27,16 @@ public class OSExcute {
             else
                 throw  new RuntimeException(e);
         }
-//        f(err)
+    }
+    public static void main(String[] args) {
+        StringBuffer aaa=new StringBuffer();
+
+        String  aa= null;
+        String  bb=null;
+        String  cc=null;
+        String  dd=aa+bb+cc+"";
+        aaa.append(aa).append(bb).append(cc);
+        System.out.println(dd.toString());
+        System.out.println(aaa.toString());
     }
 }
